@@ -1,5 +1,40 @@
 # A03
 
+# How to use Git & GIThub
+
+depending on the OS you are using you will have to follow different procedures, since I am using Windows 10 i will explain how to install and use GIT in windows.
+
+# -1 Git installation 
+
+Go on the website https://gitforwindows.org/ and download the installer for GIT 
+Once the download is completed proceed to install it
+
+# -2 Git Setup
+
+Once GIT is installed proceed to set up the global account data, go in the command prompt and type 
+
+$ git config --global user.name "youruser"
+$ git config --global user.email "youremail"
+
+Your GIT is now configured!
+
+# -3 GitHub 
+
+Start with going on the github website https://github.com
+Create an account
+On the top right side of the page, next to your profile picture there is a plus, click on it
+select new repository
+Under repository name put the name of your repository
+Select public (where you are prompted if you want the repo to be public or private)unless you are planning to keep your repo private
+Select Initialize this repository with a README
+Click on Create Repository
+
+Congratulation, you created your first Repo!
+
+# Webstorm
+
+# Definitions
+
 1 GIT = Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br/>
 2 GitHub = GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.<br/>
 3 Repository = a repository is a central file storage location. It is used by version control systems to store multiple versions of files.<br/>
@@ -15,6 +50,10 @@
 
 
 # Resources
+
+for git installation : https://www.atlassian.com/git/tutorials/install-git
+
+For definitions:
 1 https://git-scm.com/<br/>
 2 https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/<br/>
 3 https://techterms.com/definition/repository<br/>
