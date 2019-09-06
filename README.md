@@ -1,39 +1,53 @@
 # A03
 
-# How to use Git & GIThub
+## Git, Github and Webstorm
 
-depending on the OS you are using you will have to follow different procedures, since I am using Windows 10 i will explain how to install and use GIT in windows.
+### -1 Git installation 
 
-# -1 Git installation 
+depending on the OS you are using you will have to follow different procedures for the installation of GIT, since I am using Windows 10 i will explain how to install and use GIT in windows.<br/>
+Go on the website https://gitforwindows.org/ and download the installer for GIT <br/>
+Once the download is completed proceed to install it and click next until the installation is done.<br/>
 
-Go on the website https://gitforwindows.org/ and download the installer for GIT 
-Once the download is completed proceed to install it
+### -2 Git Setup
 
-# -2 Git Setup
+Once GIT is installed proceed to set up the global account data, go in the command prompt (cmd.exe or powershell) and type the following <br/>
 
-Once GIT is installed proceed to set up the global account data, go in the command prompt and type 
+git config --global user.name "yourusername"<br/>
+git config --global user.email "youremail"<br/>
 
-$ git config --global user.name "youruser"
-$ git config --global user.email "youremail"
+Your GIT is now configured!<br/>
 
-Your GIT is now configured!
+### -3 GitHub 
 
-# -3 GitHub 
+Go on the github website https://github.com<br/>
+Create an account<br/>
+On the top right side of the page, next to your profile picture there is a plus, click on it and select the new repository button<br/>
+Under repository name put the name of your repository<br/>
+Select public (where you are prompted if you want the repo to be public or private)unless you are planning to keep your repo private<br/>
+Select Initialize this repository with a README<br/>
+Click on Create Repository<br/>
+Congratulation, you created your first Repo!<br/>
 
-Start with going on the github website https://github.com
-Create an account
-On the top right side of the page, next to your profile picture there is a plus, click on it
-select new repository
-Under repository name put the name of your repository
-Select public (where you are prompted if you want the repo to be public or private)unless you are planning to keep your repo private
-Select Initialize this repository with a README
-Click on Create Repository
+### Webstorm
 
-Congratulation, you created your first Repo!
+In webstorm we will be able to turn on the version control feature.<br/>
+Once webstorm is open create a new project<br/>
+Once the project is open click on VCS and select Enable version control integration<br/>
+From the dropdown menu select Git and press ok, this will enable version control.<br/>
+open the terminal and type git init and press enter<br/>
+type git add . and press enter<br/>
+now you are ready to perform your first commit!<br/>
 
-# Webstorm
+### First commit 
 
-# Definitions
+On the top right section of Webstorm there is a button list next to a tag called Git<br/>
+Click on the green tickmark and it will open a window called commit changes<br/>
+In the message window write the following : First commit<br/>
+Before pushing the commit button make sure that all the files in the top window are selected<br/>
+press the button commit<br/>
+Your first commit is done, Hurray !<br/>
+
+## Definitions
 
 1 GIT = Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.<br/>
 2 GitHub = GitHub is a Git repository hosting service, but it adds many of its own features. While Git is a command line tool, GitHub provides a Web-based graphical interface. It also provides access control and several collaboration features, such as a wikis and basic task management tools for every project.<br/>
